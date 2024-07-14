@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type = "text" id = "userInput" placeholder = "Type something" />
+    <button onclick = "showInput()">submit</button>
+
+    <p id = "output"></p>
+    <script>
+        function showInput(){
+        let input = document.getElementById("userInput").
+        value;
+        document.getElementById("output").innerText = input;
+    }
+    </script>
+</body>
+</html></html>
