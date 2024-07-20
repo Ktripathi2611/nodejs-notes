@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App {
+  /* styles for the main app container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Add specific styles for Button, Input, HoverDiv, and Form components */
+.App {
+  /* Styles for the main app container */
+  font-family: sans-serif;  /* Set a base font */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 600px;  /* Set a width for the app */
+  margin: 0 auto;  /* Center the app horizontally */
+}
+
+.App button,
+.App input,
+.App textarea {
+  /* Styles for all buttons, inputs, and textareas */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.App button {
+  /* Additional styles for buttons */
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #3e8e41;
+}
+
+
+.Box {
+  margin: 10px; /* Add some margin between boxes */
+  border: 1px solid #ddd; /* Add a thin border to boxes */
+}
