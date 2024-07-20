@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  font-family: sans-serif; /* Set a default font family */
+  margin: 0 auto; /* Center the app horizontally */
+  padding: 20px; /* Add some padding for visual separation */
+  max-width: 800px; /* Set a maximum width for responsiveness */
+}
+
+h1 {
+  text-align: center; /* Center headings */
+  margin-bottom: 20px; /* Add some space after headings */
+}
+
+section {
+  margin-bottom: 20px; /* Add spacing between sections */
+  border-bottom: 1px solid #ddd; /* Add a subtle separator line */
+  padding-bottom: 10px; /* Add some padding for content */
+}
+
+h2 {
+  margin-top: 0; /* Remove top margin for better section clarity */
+}
+
+ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+li {
+  margin-bottom: 5px; /* Add spacing between list items */
+}
+
+/* Add additional styles for specific components here as needed */
+.loading {
+  text-align: center; /* Center loading message */
+}
+
+.error {
+  color: red; /* Highlight error messages */
+}
